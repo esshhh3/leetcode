@@ -7,9 +7,9 @@ public:
 
          unordered_map<char,int>mpp1,mpp2;
 
-         if(n1 != n2){
-            return false;
-         }
+        //  if(n1 != n2){
+        //     return false;
+        //  }
          for(int i =0;i<n1;i++){
             char ch1 = s[i];
             char ch2 = t[i];
